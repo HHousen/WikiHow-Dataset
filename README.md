@@ -1,4 +1,7 @@
 # WikiHow-Dataset
+
+**NOTE:** This forked version of [mahnazkoupaee/WikiHow-Dataset](https://github.com/mahnazkoupaee/WikiHow-Dataset) processes the data into 6 files based on dataset splits. For each of the title lists (`all_train.txt`, `all_val.txt` and `all_test.txt`), the corresponding articles are read from `wikihowAll.csv` and written to text files `train.source`, `train.target`, `val.source`, `val.target`, and `test.source` and `test.target`. These will be placed in the newly created `wikihow` directory.
+
 WikiHow: A Large Scale Text Summarization Dataset
 
 WikiHow is a new large-scale dataset using the online WikiHow (http://www.wikihow.com/) knowledge base <sup>[*](#footnote1)</sup>. The dataset is introduced in https://arxiv.org/abs/1810.09305. Please refer to the paper for more information regarding the dataset and its properties.
